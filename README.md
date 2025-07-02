@@ -2,10 +2,9 @@
 #### 1.Download and pre-process the MNIST dataset.
 + Here I'm using SNNTORCH library developed by SNN researcher [Jason Eshraghian](https://www.jasoneshraghian.com/)
 + At first we'll import the required libraries
-+ <span style="color:yellow"> Here the matplotlib.animation is added to visualize the spike trains later...
-</span>
-```python
++ Here the matplotlib.animation is added to visualize the spike trains later... 
 
+```python
 import snntorch as snn
 import snntorch.functional as SF
 import snntorch.surrogate as surrogate
